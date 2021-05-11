@@ -24,6 +24,11 @@ int main() {
 				// if the current elements is not the maximum, then continue the loop
 				continue;
 			}
+			// the reason why we only need to check the maximum values is that once
+			// this value is adjacent to another smaller value, then if you add 1 to
+			// this value, it will become the new maximum element, thus, it has the
+			// capability to eat all the other piranhas, that's why we skip all the
+			// values that are not the maximum size
 			if (i > 0 && a[i - 1] != mx) {
 				// if the current element is not the first element and its previous
 				// element is not the maximum, then it can be the possible answer
