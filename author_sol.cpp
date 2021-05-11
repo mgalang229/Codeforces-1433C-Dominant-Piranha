@@ -21,7 +21,7 @@ int main() {
 		int idx = -1;
 		for (int i = 0; i < n; i++) {
 			if (a[i] != mx) {
-				// if the current elements is not the maximum, then continue the loop
+				// if the current element is not the maximum, then continue the loop
 				continue;
 			}
 			// the reason why we only need to check the maximum values is that once
