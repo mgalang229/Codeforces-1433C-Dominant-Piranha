@@ -36,7 +36,7 @@ int main() {
 			}
 			if (i < n - 1 && a[i + 1] != mx) {
 				// if the current element is not the last element and its next
-				// element is not the maximu, then it can be the possible answer
+				// element is not the maximum, then it can be the possible answer
 				idx = i + 1;
 			}
 		}
